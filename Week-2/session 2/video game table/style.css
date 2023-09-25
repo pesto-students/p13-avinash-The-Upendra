@@ -1,0 +1,34 @@
+body{
+    --table-color:green;
+    --row-bg-color: lightskyblue;
+    font-family: Arial;
+}
+
+
+caption{
+    background-color: var(--table-color);
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+table{
+    border: 2px solid var(--table-color);
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    font-size: small;
+    
+}
+
+th, td{
+    
+    padding: 10px;
+
+}
+
+tr:nth-child(even) {
+    background-color: var(--row-bg-color);
+}
